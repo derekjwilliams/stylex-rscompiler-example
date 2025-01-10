@@ -16,6 +16,7 @@ module.exports = {
       // See all options in the babel plugin configuration docs:
       // https://stylexjs.com/docs/api/configuration/babel-plugin/
       {
+        debug: false,
         dev: process.env.NODE_ENV === 'development',
         runtimeInjection: false,
         genConditionalClasses: true,
