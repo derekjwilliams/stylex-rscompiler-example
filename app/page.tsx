@@ -15,7 +15,7 @@ import {
   spacing,
   text,
   scales,
-} from '@/app/globalTokens.stylex';
+} from './globalTokens.stylex';
 import Counter from './Counter';
 
 const HOMEPAGE = 'https://stylexjs.com';
