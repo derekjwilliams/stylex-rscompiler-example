@@ -24,7 +24,8 @@ module.exports = stylexPlugin({
     unstable_moduleResolution: {
       type: 'commonJS',
     },
-  }
+  },
+  extractCSS: false,
 })({
   transpilePackages: ['@stylexjs/open-props'],
   // Optionally, add any other Next.js config below, e.g. 
