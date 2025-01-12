@@ -26,6 +26,7 @@
     "@stylexjs/eslint-plugin": "^0.10.0",
     "@stylexjs/postcss-plugin": "0.10.0",
     "@stylexswc/nextjs-plugin": "^0.6.1-rc.2",
+    "@stylexswc/postcss-plugin": "^0.6.1-rc.2",
     "@stylexswc/rs-compiler": "^0.6.1-rc.2",
     "@stylexswc/webpack-plugin": "^0.6.1-rc.2",
     "@types/json-schema": "^7.0.15",
