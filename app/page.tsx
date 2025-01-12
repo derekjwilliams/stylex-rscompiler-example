@@ -58,6 +58,9 @@ export default function Home() {
           title="Templates"
         />
       </div>
+      <h1 className="text-3xl font-bold underline">
+    Hello tailwind + stylex
+  </h1>
     </main>
   );
 }

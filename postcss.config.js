@@ -39,7 +39,7 @@ module.exports = {
         'components/**/*.{js,jsx,ts,tsx}',
         ...openPropsIncludePaths,
       ],
-      useCSSLayers: true,
+      useCSSLayers: false, // required for tailwind to play nicely, if it is required to be true, then update next.config.js to set extractCSS to true, which increases payload a little
       rsOptions: {
         aliases: {
           '@/*': [
@@ -55,6 +55,7 @@ module.exports = {
         treeshakeCompensation: true,
       },
     },
+     tailwindcss: {},
     autoprefixer: {},
   },
 };
