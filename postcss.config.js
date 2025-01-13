@@ -35,15 +35,15 @@ module.exports = {
   plugins: {
     '@stylexswc/postcss-plugin': {
       include: [
-        'app/**/*.{js,jsx,ts,tsx}',
-        'components/**/*.{js,jsx,ts,tsx}',
+        'src/app/**/*.{js,jsx,ts,tsx}',
+        'src/components/**/*.{js,jsx,ts,tsx}',
         ...openPropsIncludePaths,
       ],
       useCSSLayers: false, // required for tailwind to play nicely, if it is required to be true, then update next.config.js to set extractCSS to true, which increases payload a little
       rsOptions: {
         aliases: {
           '@/*': [
-            path.join(projectRoot, '*'),
+            path.join(projectRoot, './src/*'),
           ],
         },
         unstable_moduleResolution: {
