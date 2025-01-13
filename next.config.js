@@ -41,7 +41,7 @@ module.exports = stylexPlugin({
   //     .xopmwyx,:root {
   // Not a show stopper for now
 
-  extractCSS: process.env.NODE_ENV === 'development' ? true : false
+  extractCSS: true //process.env.NODE_ENV === 'development' ? true : false
 })({
   transpilePackages: ['@stylexjs/open-props'],
   // Optionally, add any other Next.js config below, e.g. 
