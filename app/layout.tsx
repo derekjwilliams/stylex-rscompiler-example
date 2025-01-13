@@ -7,8 +7,8 @@
  *
  */
 
-import '../app/app.css';
-import { globalTokens as $ } from '../app/globalTokens.stylex';
+import './app.css';
+import { globalTokens as $ } from './globalTokens.stylex';
 import * as stylex from '@stylexjs/stylex';
 
 export const metadata = {
