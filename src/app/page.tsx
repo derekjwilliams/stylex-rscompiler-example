@@ -1,11 +1,3 @@
-/**
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- *
- */
 
 import React from 'react';
 import stylex from '@stylexjs/stylex';
@@ -58,7 +50,7 @@ export default function Home() {
           title="Templates"
         />
       </div>
-      <h1 className="text-3xl font-bold underline">
+      <h1 className="text-3xl font-bold underline text-blue-900">
     Hello tailwind + stylex
   </h1>
     </main>
