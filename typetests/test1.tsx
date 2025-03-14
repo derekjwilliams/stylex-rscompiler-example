@@ -26,6 +26,7 @@ type Props = {
 //   },
 // });
 
+
 // function OtherComponent() {
 //   return <Component xstyle={styles.base} />;
 // }
