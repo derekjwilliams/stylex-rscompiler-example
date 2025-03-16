@@ -36,4 +36,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 see https://github.com/Dwlad90/stylex-swc-plugin/tree/develop/apps/nextjs-example
 
-Note: as of time of this writing the example is using version 0.6.1-rc.2.  Update this once a non-rc release is available.
+Note: as of time of this writing the example is using version 0.7.0-rc.4.  Update this once a non-rc release is available.
+
+Note: Difficulting getting tailwind 4 to play nicely, using 3.14.7 for now
