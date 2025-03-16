@@ -7,13 +7,14 @@
  *
  */
 
+/* eslint-disable no-unused-vars */
+
 import type { Theme } from '@stylexjs/stylex';
 
 import { ButtonTokens } from './ButtonTokens.stylex';
 
 import * as stylex from '@stylexjs/stylex';
 
-/* eslint-disable no-unused-vars */
 
 const fdsRed: Theme<typeof ButtonTokens> = stylex.createTheme(ButtonTokens, {
   bgColor: 'red',
